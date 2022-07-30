@@ -46,7 +46,7 @@
      public double bonus() {
          if (this.workHours > 40.0) {
              double bonus = this.workHours - 40.0;
-             System.out.println("---------------------------------------");
+             System.out.println("******");
              System.out.println("Extra " + bonus + " for working hours " + bonus * 30.0 + " bonus paid");
              return bonus * 30.0;
          }
@@ -57,15 +57,15 @@
      public double raiseSalary() {
          double raise = 2021.0 - this.hireYear;
          if (raise < 10) {
-             System.out.println("---------------------------------------");
+             System.out.println(*****");
              System.out.println(this.name + " to the salary of the staff " + (this.salary * (5.0 / 100.0)) + "  raise has been made.");
              return this.salary * (5.0 / 100.0);
          } else if (raise > 9 && raise < 20) {
-             System.out.println("---------------------------------------");
+             System.out.println("****");
              System.out.println(this.name + " to the salary of the staff " + (this.salary * (10.0 / 100.0)) + " raise has been mader.");
              return this.salary * (10.0 / 100.0);
          } else {
-             System.out.println("---------------------------------------");
+             System.out.println("***");
              System.out.println(this.name + " to the salary of the staff " + (this.salary * (15.0 / 100.0)) + " raise has been made.");
              return this.salary * (15.0 / 100.0);
          }
